@@ -1,0 +1,46 @@
+Food Title: Calories Total Flat (g) Saturated Fat(g) Transfat(g) Cholesterol(mg) sodium(mg) carbs(g) dietary fiber(g) sugars(g) protein(g) vitamin A (%DV) Vitamin C (%DV) Irion (%DV)
+Artisan flatbread	87	230	4	0.5	0	0	330	43	4	3	8	0	0	0	15
+Artisan Italian	65	160	1.5	0.5	0	0	350	34	0	2	7	0	8	0	50
+Hearty Multigrain	71	190	2	0	0	0	310	36	3	3	7	0	0	0	8
+Italian Herbs & Cheese	76	200	4	2	0	10	550	36	1	2	9	0	8	0	60
+Mini 9-Grain Wheat	47	120	1.5	0	0	0	210	24	2	2	5	0	0	0	8
+Mini Italian	47	130	1.5	0	0	0	230	25	1	2	5	0	0	0	8
+Spinach Wrap	102	290	8	3.5	0	0	780	48	2	1	8	0	0	10	15
+Tomato Basil Wrap	102	290	8	3.5	0	0	730	49	2	1	8	0	10	8	15
+Cheese
+American Cheese	11	40	3.5	2	0	10	210	1	0	0	2	4	0	4	0
+Monterey Cheddar	14	50	4.5	3	0	15	90	0	0	0	3	6	0	8	0
+Pepper Jack	14	50	4	2.5	0	15	240	1	0	0	3	0	0	0	0
+Provolone	14	50	4	2	0	10	125	0	0	0	4	4	0	8	0
+Swiss	14	50	4.5	2.5	0	15	30	0	0	0	4	4	0	10	0
+Extras
+Bacon	15	80	7	2.5	0	15	180	1	0	1	5	0	0	0	8
+Guacamole	35	70	6	1	0	0	105	3	2	0	1	2	4	0	0
+Pepperoni	18	80	7	2.5	0	20	290	1	0	0	3	0	4	0	0
+Sauces
+Caesar	14	80	9	1.5	0	5	130	0	0	0	0	0	0	0	0
+Chipotle Southwest	14	60	7	1	0	5	110	1	0	1	0	0	0	0	0
+Honey Mustard	14	20	0	0	0	0	80	4	0	4	0	0	0	0	0
+Light Mayonnaise	15	50	5	1	0	5	100	1	0	0	0	0	0	0	0
+Oil	5	45	5	1	0	0	0	0	0	0	0	0	0	0	0
+Ranch	14	70	8	1.5	0	5	140	1	0	1	0	0	0	0	0
+Red Wine Vinegar	4	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Regular Mayonnaise	14	100	11	2	0	10	65	0	0	0	0	0	0	0	0
+Subway® Vinaigrette	14	35	3.5	0.5	0	0	110	1	0	1	0	0	0	0	0
+Sweet Onion/Sweet Onion Teriyaki	18	30	0	0	0	0	75	8	0	7	0	0	0	0	0
+Yellow Mustard	14	10	0.5	0	0	0	170	1	0	0	0	0	0	0	0
+Veggies
+Banana Peppers	4	0	0	0	0	0	65	0	0	0	0	0	6	0	0
+Black Olives	3	0	0	0	0	0	25	0	0	0	0	0	0	0	0
+Cucumbers	14	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+Green Peppers	7	0	0	0	0	0	0	0	0	0	0	0	6	0	0
+Jalapeños	4	0	0	0	0	0	70	0	0	0	0	0	0	0	0
+Lettuce	21	0	0	0	0	0	0	0	0	0	0	2	0	0	0
+Pickles	9	0	0	0	0	0	115	0	0	0	0	0	0	0	0
+Red Onions	7	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+Spinach	7	0	0	0	0	0	5	0	0	0	0	15	2	0	0
+Tomatoes	35	5	0	0	0	0	0	1	0	1	0	10	4	0	0
+Protein
+Bacon	15	80	6	2.5	0	15	170	1	0	1	5	0	0	0	0
+Seasonings
+Parmesan Cheese	1	5	0	0	0	0	25	0	0	0	1	0	0	0	0
