@@ -15,6 +15,10 @@ public class Ingredient {
     private int calcium;
     private int iron;
 
+    public Ingredient() {
+
+    }
+
     public Ingredient(int servingSize, int calories, double totalFat, double saturatedFat, int transfat,
                       int cholesterol, int sodium, int carbohydrates, int fibers, int sugars, int protein, int vitaminA,
                       int vitaminB, int calcium, int iron) {
@@ -32,6 +36,65 @@ public class Ingredient {
         this.vitaminA = vitaminA;
         this.vitaminB = vitaminB;
         this.calcium = calcium;
+        this.iron = iron;
+    }
+    public void setServingSize(int servingSize) {
+        this.servingSize = servingSize;
+    }
+
+    public void setCalories(int calories) {
+        this.calories = calories;
+    }
+
+    public void setTotalFat(double totalFat) {
+        this.totalFat = totalFat;
+    }
+
+    public void setSaturatedFat(double saturatedFat) {
+        this.saturatedFat = saturatedFat;
+    }
+
+    public void setTransfat(int transfat) {
+        this.transfat = transfat;
+    }
+
+    public void setCholesterol(int cholesterol) {
+        this.cholesterol = cholesterol;
+    }
+
+    public void setSodium(int sodium) {
+        this.sodium = sodium;
+    }
+
+    public void setCarbohydrates(int carbohydrates) {
+        this.carbohydrates = carbohydrates;
+    }
+
+    public void setFibers(int fibers) {
+        this.fibers = fibers;
+    }
+
+    public void setSugars(int sugars) {
+        this.sugars = sugars;
+    }
+
+    public void setProtein(int protein) {
+        this.protein = protein;
+    }
+
+    public void setVitaminA(int vitaminA) {
+        this.vitaminA = vitaminA;
+    }
+
+    public void setVitaminB(int vitaminB) {
+        this.vitaminB = vitaminB;
+    }
+
+    public void setCalcium(int calcium) {
+        this.calcium = calcium;
+    }
+
+    public void setIron(int iron) {
         this.iron = iron;
     }
 
