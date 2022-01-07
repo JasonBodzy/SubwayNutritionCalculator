@@ -14,30 +14,20 @@ public class Ingredient {
     private int vitaminB;
     private int calcium;
     private int iron;
+    private String name;
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
 
     public Ingredient() {
 
     }
 
-    public Ingredient(int servingSize, int calories, double totalFat, double saturatedFat, int transfat,
-                      int cholesterol, int sodium, int carbohydrates, int fibers, int sugars, int protein, int vitaminA,
-                      int vitaminB, int calcium, int iron) {
-        this.servingSize = servingSize;
-        this.calories = calories;
-        this.totalFat = totalFat;
-        this.saturatedFat = saturatedFat;
-        this.transfat = transfat;
-        this.cholesterol = cholesterol;
-        this.sodium = sodium;
-        this.carbohydrates = carbohydrates;
-        this.fibers = fibers;
-        this.sugars = sugars;
-        this.protein = protein;
-        this.vitaminA = vitaminA;
-        this.vitaminB = vitaminB;
-        this.calcium = calcium;
-        this.iron = iron;
-    }
     public void setServingSize(int servingSize) {
         this.servingSize = servingSize;
     }
@@ -156,5 +146,27 @@ public class Ingredient {
 
     public int getIron() {
         return iron;
+    }
+
+    @Override
+    public String toString() {
+        return "Ingredient{" +
+                "servingSize=" + servingSize +
+                ", calories=" + calories +
+                ", totalFat=" + totalFat +
+                ", saturatedFat=" + saturatedFat +
+                ", transfat=" + transfat +
+                ", cholesterol=" + cholesterol +
+                ", sodium=" + sodium +
+                ", carbohydrates=" + carbohydrates +
+                ", fibers=" + fibers +
+                ", sugars=" + sugars +
+                ", protein=" + protein +
+                ", vitaminA=" + vitaminA +
+                ", vitaminB=" + vitaminB +
+                ", calcium=" + calcium +
+                ", iron=" + iron +
+                ", name='" + name + '\'' +
+                '}';
     }
 }
