@@ -2,13 +2,11 @@ import java.util.ArrayList;
 
 public class Sandwich {
     ArrayList<Ingredient> ingredients = new ArrayList<Ingredient>();
+    Boolean isFootlong = false;
 
-    public Sandwich() {
+    public Sandwich(Boolean isFootlong) {
         this.ingredients = new ArrayList<Ingredient>();
-    }
-
-    public Sandwich(ArrayList<Ingredient> ingredients) {
-        this.ingredients = ingredients;
+        this.isFootlong = isFootlong;
     }
 
     public ArrayList<Ingredient> getIngredients() {
@@ -24,6 +22,9 @@ public class Sandwich {
         for (Ingredient i : this.ingredients) {
             calories += i.getCalories();
         }
+        if (isFootlong) {
+            return  calories * 2;
+        }
         return calories;
     }
 
@@ -31,6 +32,9 @@ public class Sandwich {
         double fat = 0;
         for (Ingredient i : this.ingredients) {
             fat += i.getTotalFat();
+        }
+        if (isFootlong) {
+            return  fat * 2;
         }
         return fat;
     }
@@ -40,6 +44,9 @@ public class Sandwich {
         for (Ingredient i : this.ingredients) {
             satfat += i.getSaturatedFat();
         }
+        if (isFootlong) {
+            return  satfat * 2;
+        }
         return satfat;
     }
 
@@ -47,6 +54,9 @@ public class Sandwich {
         int transfat = 0;
         for (Ingredient i : this.ingredients) {
             transfat += i.getTransfat();
+        }
+        if (isFootlong) {
+            return  transfat * 2;
         }
         return transfat;
     }
@@ -56,6 +66,9 @@ public class Sandwich {
         for (Ingredient i : this.ingredients) {
             cholesterol += i.getCholesterol();
         }
+        if (isFootlong) {
+            return  cholesterol * 2;
+        }
         return cholesterol;
     }
 
@@ -63,6 +76,9 @@ public class Sandwich {
         int sodium = 0;
         for (Ingredient i : this.ingredients) {
             sodium += i.getSodium();
+        }
+        if (isFootlong) {
+            return  sodium * 2;
         }
         return sodium;
     }
@@ -72,6 +88,9 @@ public class Sandwich {
         for (Ingredient i : this.ingredients) {
             carbs += i.getCarbohydrates();
         }
+        if (isFootlong) {
+            return  carbs * 2;
+        }
         return carbs;
     }
 
@@ -79,6 +98,9 @@ public class Sandwich {
         int fibers = 0;
         for (Ingredient i : this.ingredients) {
             fibers += i.getFibers();
+        }
+        if (isFootlong) {
+            return  fibers * 2;
         }
         return fibers;
     }
@@ -88,6 +110,9 @@ public class Sandwich {
         for (Ingredient i : this.ingredients) {
             sugars += i.getSugars();
         }
+        if (isFootlong) {
+            return  sugars * 2;
+        }
         return sugars;
     }
 
@@ -95,6 +120,9 @@ public class Sandwich {
         int protein = 0;
         for (Ingredient i : this.ingredients) {
             protein += i.getProtein();
+        }
+        if (isFootlong) {
+            return  protein * 2;
         }
         return protein;
     }
@@ -105,6 +133,9 @@ public class Sandwich {
         for (Ingredient i : this.ingredients) {
             vitaminA += i.getVitaminA();
         }
+        if (isFootlong) {
+            return  vitaminA * 2;
+        }
         return vitaminA;
     }
 
@@ -112,6 +143,9 @@ public class Sandwich {
         int vitaminB = 0;
         for (Ingredient i : this.ingredients) {
             vitaminB += i.getVitaminB();
+        }
+        if (isFootlong) {
+            return  vitaminB * 2;
         }
         return vitaminB;
     }
@@ -121,6 +155,9 @@ public class Sandwich {
         for (Ingredient i : this.ingredients) {
             calcium += i.getCalcium();
         }
+        if (isFootlong) {
+            return  calcium * 2;
+        }
         return calcium;
     }
 
@@ -128,6 +165,9 @@ public class Sandwich {
         int iron = 0;
         for (Ingredient i : this.ingredients) {
             iron += i.getIron();
+        }
+        if (isFootlong) {
+            return  iron * 2;
         }
         return iron;
     }
