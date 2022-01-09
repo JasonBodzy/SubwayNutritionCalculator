@@ -10,5 +10,8 @@ public class GUI {
         for (Ingredient i : ingredients) {
             System.out.println(i.toString());
         }
+
+        Sandwich sandwich = new Sandwich(false);
+
     }
 }

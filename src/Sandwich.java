@@ -17,6 +17,10 @@ public class Sandwich {
         this.ingredients = ingredients;
     }
 
+    public void add(Ingredient ingredient) {
+        this.ingredients.add(ingredient);
+    }
+
     public int getTotalCalories() {
         int calories = 0;
         for (Ingredient i : this.ingredients) {
