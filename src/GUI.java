@@ -12,6 +12,22 @@ public class GUI {
         }
 
         Sandwich sandwich = new Sandwich(false);
+        String[] names = new String[]{"ArtisanItalian", "Olives", "Cucumbers", "Pickles", "Lettuce", "Turkey"};
+
+        for (Ingredient i : ingredients) {
+            for (String n : names)
+                if (i.getName() != null) {
+                    if (i.getName().contains(n)) {
+                        sandwich.add(i);
+                    }
+                }
+
+        }
+
+        System.out.println(sandwich.getTotalCalories());
+
+        System.out.println(sandwich.getTotalProtein());
+
 
     }
 }

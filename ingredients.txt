@@ -40,3 +40,4 @@ Tomatoes	35	5	0	0	0	0	0	1	0	1	0	10	4	0	0
 Bacon	15	80	6	2.5	0	15	170	1	0	1	5	0	0	0	0
 Seasonings
 Parmesan Cheese	1	5	0	0	0	0	25	0	0	0	1	0	0	0	0
+Turkey 57 60 1 1 0 25 480 0 0 0 11 0 0 0 10
